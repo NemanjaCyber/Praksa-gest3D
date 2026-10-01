@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-PyInstaller recept za jedan .exe fajl.
+PyInstaller za jedan .exe fajl.
 
 Pokretanje:  build_exe.bat
 (ili rucno:  pyinstaller --noconfirm --clean Rotacija3D.spec)
@@ -44,8 +44,6 @@ hiddenimports += [
     "tkinter.filedialog",
 ]
 
-# Paketi koje ovaj program ne koristi; izbacivanje smanjuje .exe.
-# matplotlib se NE izbacuje: mediapipe ga uvozi u svojim modulima.
 excludes = [
     "pandas", "scipy", "notebook", "IPython", "pytest",
     "PyQt5", "PyQt6", "PySide2", "PySide6", "sounddevice",
