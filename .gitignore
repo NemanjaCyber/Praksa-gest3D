@@ -1,0 +1,21 @@
+# virtuelno okruzenje
+.venv/
+venv/
+env/
+
+# python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# izlazi aplikacije
+snimci/
+
+# rezultati pravljenja .exe fajla
+build/
+dist/
+
+# editori
+.vscode/
+.idea/
+.DS_Store

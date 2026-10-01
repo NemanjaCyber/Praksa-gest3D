@@ -1,0 +1,7 @@
+* text=auto
+*.bat text eol=crlf
+*.py text
+*.md text
+*.obj text
+*.stl binary
+*.png binary

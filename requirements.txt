@@ -1,0 +1,15 @@
+# Zahtev: Python 3.10 ili 3.11, 64-bit (isto kao prethodni projekat).
+
+# --- 3D prikaz ---
+pygame
+PyOpenGL
+PyOpenGL-accelerate    # ubrzava prenos nizova, nije obavezan
+numpy<2
+
+# --- detekcija ruku ---
+mediapipe==0.10.14
+opencv-python<5
+
+# Opciono: ucitavanje PLY, GLTF/GLB, 3MF i ostalih formata.
+# Bez njega rade .obj i .stl, sto je dovoljno za vecinu modela.
+# trimesh
